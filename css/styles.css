@@ -50,3 +50,44 @@ header {
   width: 120px;
   vertical-align: middle;
 }
+.navbar {
+  display: flex;
+}
+.navbar a {
+  color: var(--text-color);
+  font-size: var(--p-font);
+  font-weight: 500;
+  margin: 15px 22px;
+  transition: all 0.5s ease;
+}
+.navbar a:hover {
+  color: var(--pink);
+}
+.h-right {
+  display: flex;
+  align-items: center;
+}
+.h-right a:first-child {
+  color: var(--text-color);
+  font-size: var(--p-font);
+  margin-right: 20px;
+}
+.h-right a {
+  vertical-align: middle;
+  font-size: 20px;
+  color: var(--text-color);
+  margin-right: 18px;
+  margin-left: 5px;
+  transition: all 0.5s ease;
+}
+.h-right a:hover {
+  color: var(--pink);
+  transform: translateY(-3px);
+}
+#menu-icon {
+  color: var(--text-color);
+  font-size: 30px;
+  cursor: pointer;
+  z-index: 10001;
+  display: none;
+}
