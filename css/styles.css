@@ -13,7 +13,8 @@
   --text-color: #fff;
   --bg-color: #000;
   --main-color: #ffa343;
-
+  --pink: #ff07b8;
+  --lightblue: #67fcfe;
   --h1-font: 6rem;
   --h2-font: 3rem;
   --p-font: 1rem;
@@ -21,4 +22,31 @@
 body {
   color: var(--text-color);
   background: var(--bg-color);
+}
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  width: 100%;
+  background: transparent;
+  padding: 27px 17%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.5s ease;
+}
+.logo {
+  font-size: 33px;
+  color: var(--lightblue);
+  font-weight: 700;
+}
+.logo_pink {
+  color: var(--pink);
+}
+.logo img {
+  max-width: 100%;
+  height: auto;
+  width: 120px;
+  vertical-align: middle;
 }
