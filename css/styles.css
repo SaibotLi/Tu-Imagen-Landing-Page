@@ -11,7 +11,7 @@
 }
 :root {
   --text-color: #fff;
-  --bg-color: #000;
+  --bg-color: #140118;
   --main-color: #ffa343;
   --pink: #ff07b8;
   --lightblue: #67fcfe;
@@ -122,13 +122,14 @@ section {
   font-size: var(--h1-font);
   font-weight: 800;
   line-height: 1.2;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .home-text p {
   font-size: var(--p-font);
   font-weight: 500px;
   line-height: 30px;
   color: #ffffffab;
+  padding-top: 35px;
   margin-bottom: 35px;
 }
 .btn {
@@ -208,4 +209,37 @@ header.sticky {
 
 .feature-content h4:hover {
   color: var(--lightblue);
+}
+
+.events {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 9rem;
+}
+.events-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.events-text h5 {
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--lightblue);
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  margin-bottom: 20px;
+}
+.events-text h2 {
+  font-size: var(--h2-font);
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 25px;
+}
+.events-text p {
+  font-size: var(--p-font);
+  font-weight: 500;
+  line-height: 30px;
+
+  margin-bottom: 35px;
 }
